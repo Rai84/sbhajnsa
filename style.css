@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.botao {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.botao:focus {
+    outline: none;
+}
+
+.botao-selecionado {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#botaoTriste.botao-selecionado {
+    background-color: #f44336;
+}
+
+#botaoFeliz.botao-selecionado {
+    background-color: #4CAF50;
+}
